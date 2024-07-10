@@ -94,7 +94,7 @@ export default function DataTable() {
                     </span>
                   </p>
                   <p className="min-w-[200px] w-[200px] lg:w-[50%] text-xs">
-                    {moment(medGasPrice?.createdAt).format("HH:MM A")}
+                    {moment(medGasPrice?.createdAt).format("HH:mm:ss A")}
                   </p>
                 </div>
               </div>
